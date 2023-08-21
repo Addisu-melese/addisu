@@ -1,0 +1,647 @@
+﻿@model List<string>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @{
+        Layout = null;
+    }
+    <meta charset="utf-8">
+    <title>CV Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <link href="~/img/favicon.jpg" rel="icon">
+
+
+    <!-- Bootstrap CSS File -->
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="~/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+      Theme Name: DevFolio
+      Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+      Author: BootstrapMade.com
+      License: https://bootstrapmade.com/license/
+    ======================================================= -->
+</head>
+
+<body>
+    <!--/ Nav Star /-->
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll" href="#page-top">Personal Web</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+                    aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" asp-controller="Home" asp-action="Index">Back</a>
+                    </li>
+                    @*<li class="nav-item">
+                        <a class="nav-link js-scroll" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#">Contact</a>
+                    </li>*@
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--/ Nav End /-->
+    <!--/ Intro Skew Star /-->
+    <div class="intro intro-single route bg-image" style="background-image: url(/img/overlay-bg.jpg)">
+        <div class="overlay-mf"></div>
+        <div class="intro-content display-table">
+            <div class="table-cell">
+                <div class="container">
+                    <h2 class="intro-title mb-4">Blog Details</h2>
+                    <ol class="breadcrumb d-flex justify-content-center">
+                        <li class="breadcrumb-item">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#">Library</a>
+                        </li>
+                        <li class="breadcrumb-item active">Data</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Intro Skew End /-->
+    <!--/ Section Blog-Single Star /-->
+    <section class="blog-wrapper sect-pt4" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="post-box">
+                        <div class="post-thumb">
+                            <img src="~/img/post-1.JPG" class="img-fluid" alt="">
+                        </div>
+                        <div class="post-meta">
+                            <h1 class="article-title">Addisu Melese CV</h1>
+                            <ul>
+                                <li>
+                                    <span class="ion-ios-person"></span>
+                                    <a href="#">Ethiopia, Addis Ababa</a>
+                                </li>
+                                <li>
+                                    <span class="ion-pricetag"></span>
+                                    <a href="#">Web Design</a>
+                                </li>
+                                <li>
+                                    <span class="ion-chatbox"></span>
+                                    <a href="#">14</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="article-content">
+                            <table>
+                                <tr>
+                                    <td> Full Name:</td>
+                                    <td>Addisu Melese Hailu</td>
+                                </tr>
+                                <tr>
+                                    <td>Phone:  </td>
+                                    <td>+251948773837</td>
+                                </tr>
+                                <tr>
+                                    <td>Email:  </td>
+                                    <td>addis1melese@gmail.com Address:  Addis Ababa, Ethiopia</td>
+                                </tr>
+                                <tr>
+                                    <td>Birthday:  </td>
+                                    <td>March## 12##, 19## G.C</td>
+                                </tr>
+                                <tr>
+                                    <td> Language:</td>
+                                    <td>
+                                        <ul>
+                                            <li>English (spoken, reading and written)</li>
+                                            <li>Amharic (spoken, reading and written)</li>
+                                            <li>Awigna (spoken, reading and written)</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                            <h6 style="color:blue;font-weight:bold">CAREER OBJECTIVE</h6>
+                            <p>
+                                To gain experience in the field of Computer engineering and utilize my professional skill in a dynamic and stable work place with the best possible way in order to individual growth, Increase productivity of company and also achieving company goal.
+                            </p>
+                            <h6 style="color:blue;font-weight:bold">TECHNICAL SKILLS</h6>
+                            <ul>
+                                <li>Website Development (Front end and Back end)</li>
+                                <li>Programming (Java, C++, Python, C, Matlab, html, PHP, CSS, java script, MySQL, SQL, Asp.net, C# & other).</li>
+                                <li>Microsoft Office (MS Word, Excel, Power point, etc.)</li>
+                                <li>Adobe Creative Suite (Photoshop)</li>
+                                <li>Simulation (AutoCAD, Solid work, proteus, …)</li>
+                            </ul>
+                            <h6 style="color:blue;font-weight:bold">PERSONAL SKILLS</h6>
+                            <ul>
+                                <li>Excellent written and verbal communication skills</li>
+                                <li>Highly organized and efficient</li>
+                                <li>Proven leadership skills and ability to motivate</li>
+                                <li>Flexible to any change in your company.</li>
+                                <li></li>
+                            </ul>
+                            <h6 style="color:blue;font-weight:bold">EDUCATION</h6>
+                            <ul>
+                                <li>Qualified with grade 8, 10, 12 and BSc. In 99.7, 4.0, 466 and 3.37 results respectively.</li>
+                                <li>Bachelor of Science in Electrical  and Computer Engineering (2016 – 2020)</li>
+                                <li>Final Thesis <b>Line follower robot</b> (Using Arduino, Proteus, Solid work, Matlab)</li>
+                                <li>Addis Ababa University</li>
+                                <li>Addis Ababa, Ethiopia</li>
+                            </ul>
+                            <h6 style="color:blue;font-weight:bold"> ACHIEVEMENTS/RESPONSIBILITIES</h6>
+                            <ul>
+                                <li>Student scout(Police)  in Addis Ababa University (2019- 2020)</li>
+                                <li>“EGNA LEGNA” voluntary program organized by the ministry of Education.</li>
+                                <li>Teaching students in Addis Kidam G/2dary and preparatory School (2016-2018), in 2019/20 in Addis Ketema prepared by bleu Blanc Rouge Foundation.            </li>
+                                <li>I have certificate for all if it is necessary.</li>
+                            </ul>
+                            <h6 style="color:blue;font-weight:bold"> VOLUNTARISM</h6>
+                            <ul>
+                                <li>“EGNA LEGNA”.</li>
+                                <li>Teaching students.</li>
+                            </ul>
+                            <h6 style="color:blue;font-weight:bold">WORK/INTERNSHIP/ EXPERIENCE</h6>
+                            <ul>
+                                <li>In CNET Software Technology PLC  I am  Software Developer(Front & Back End)</li>
+                                <li>In East Africa Bottling Share Company, Coca Cola (internship) (March 2019- July2019).</li>
+                                <li>In Adey Meselesh German Company I had worked in Interfacing</li>
+                                <li>In FUDI Eng. PLC Power cable, CCTV camera, 4G, installation</li>
+                            </ul>
+                            <h6 style="color:blue;font-weight:bold">REFERENCES</h6>
+                            <ul>
+                                <li>Will be provided upon request. And I have certificate for all if it is necessary.</li>
+                            </ul>
+
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="title-box text-center">
+                                            <h3 class="title-a">
+                                                WORK EXPERIANCE
+                                            </h3>
+                                            <p class="subtitle-a">
+                                                AMH
+                                            </p>
+                                            <div class="line-mf"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="work-box">
+                                            <a href="img/fudi1.jpg" data-lightbox="gallery-mf">
+                                                <div class="work-img">
+                                                    <img src="~/img/fudi1.jpg" alt="" class="img-fluid img-responsive">
+                                                </div>
+                                                <div class="work-content">
+                                                    <div class="row">
+                                                        <div class="col-sm-8">
+                                                            <h2 class="w-title">Fudi Engineering</h2>
+                                                            <div class="w-more">
+                                                                <span class="w-ctegory">Instalation &AMP; Networking</span> / <span class="w-date">18 Sep. 2018</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-4">
+                                                            <div class="w-like">
+                                                                <span class="ion-ios-plus-outline"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="work-box">
+                                            <a href="img/cnetexn.JPG" data-lightbox="gallery-mf">
+                                                <div class="work-img">
+                                                    <img src="~/img/cnetexn.JPG" alt="" class="img-fluid img-responsive">
+                                                </div>
+                                                <div class="work-content">
+                                                    <div class="row">
+                                                        <div class="col-sm-8">
+                                                            <h2 class="w-title">CNET Software Technology PLC</h2>
+                                                            <div class="w-more">
+                                                                <span class="w-ctegory">Web Developer</span> / <span class="w-date">18 Sep. 2018</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-4">
+                                                            <div class="w-like">
+                                                                <span class="ion-ios-plus-outline"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="work-box">
+                                            <a href="img/coca.JPG" data-lightbox="gallery-mf">
+                                                <div class="work-img">
+                                                    <img src="~/img/coca.JPG" alt="" class="img-fluid img-responsive">
+                                                </div>
+                                                <div class="work-content">
+                                                    <div class="row">
+                                                        <div class="col-sm-8">
+                                                            <h2 class="w-title">Coca Cola</h2>
+                                                            <div class="w-more">
+                                                                <span class="w-ctegory">Mainteinance</span> / <span class="w-date">18 Sep. 2018</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-4">
+                                                            <div class="w-like">
+                                                                <span class="ion-ios-plus-outline"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="work-box">
+                                            <a href="img/adey.JPG" data-lightbox="gallery-mf">
+                                                <div class="work-img">
+                                                    <img src="~/img/adey.JPG" alt="" class="img-fluid img-responsive">
+                                                </div>
+                                                <div class="work-content">
+                                                    <div class="row">
+                                                        <div class="col-sm-8">
+                                                            <h2 class="w-title">Germeny Company Adey Meselesh</h2>
+                                                            <div class="w-more">
+                                                                <span class="w-ctegory">Interfacing</span> / <span class="w-date">18 Sep. 2018</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-4">
+                                                            <div class="w-like">
+                                                                <span class="ion-ios-plus-outline"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="title-box text-center">
+                                            <h3 class="title-a">
+                                                CERTIFICATE
+                                            </h3>
+                                            <p class="subtitle-a">
+                                                AMH
+                                            </p>
+                                            <div class="line-mf"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="work-box">
+                                            <a href="img/growth.JPG" data-lightbox="gallery-mf">
+                                                <div class="work-img">
+                                                    <img src="~/img/growth.JPG" alt="" class="img-fluid img-responsive">
+                                                </div>
+                                                <div class="work-content">
+                                                    <div class="row">
+                                                        <div class="col-sm-8">
+                                                            <h2 class="w-title">Growth Tip Business</h2>
+                                                            <div class="w-more">
+                                                                <span class="w-ctegory">Interprieneurship</span> / <span class="w-date">18 Sep. 2018</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-4">
+                                                            <div class="w-like">
+                                                                <span class="ion-ios-plus-outline"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="work-box">
+                                            <a href="img/egna.JPG" data-lightbox="gallery-mf">
+                                                <div class="work-img">
+                                                    <img src="~/img/egna.JPG" alt="" class="img-fluid img-responsive">
+                                                </div>
+                                                <div class="work-content">
+                                                    <div class="row">
+                                                        <div class="col-sm-8">
+                                                            <h2 class="w-title">Voluntarism Prepared by Federal Minestrey Of Education</h2>
+                                                            <div class="w-more">
+                                                                <span class="w-ctegory">Volenteer</span> / <span class="w-date">18 Sep. 2018</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-4">
+                                                            <div class="w-like">
+                                                                <span class="ion-ios-plus-outline"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="work-box">
+                                            <a href="img/t.t.JPG" data-lightbox="gallery-mf">
+                                                <div class="work-img">
+                                                    <img src="~/img/t.t.JPG" alt="" class="img-fluid img-responsive">
+                                                </div>
+                                                <div class="work-content">
+                                                    <div class="row">
+                                                        <div class="col-sm-8">
+                                                            <h2 class="w-title">Teaching Experiance At High School</h2>
+                                                            <div class="w-more">
+                                                                <span class="w-ctegory">Teaching</span> / <span class="w-date">18 Sep. 2018</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-4">
+                                                            <div class="w-like">
+                                                                <span class="ion-ios-plus-outline"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-comments">
+                        <div class="title-box-2">
+                            <h4 class="title-comments title-left">Comments (34)</h4>
+                        </div>
+                        <ul class="list-comments">
+                            <li>
+                                <div class="comment-avatar">
+                                    <img src="~/img/testimonial-2.jpg" alt="">
+                                </div>
+                                <div class="comment-details">
+                                    <h4 class="comment-author">Addisu Melese</h4>
+                                    <span>18 Sep 2022</span>
+                                    <p>
+                                        Lake Tana, largest lake of Ethiopia,
+                                        in a depression of the northwest plateau, 6,000 feet (1,800 metres) above sea level.
+                                        It forms the main reservoir for the Blue Nile (Abbay) River, which drains its southern extremity near Bahir Dar.
+                                    </p>
+                                    <a href="3">Reply</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="comment-avatar">
+                                    <img src="~/img/testimonial-4.jpg" alt="">
+                                </div>
+                                <div class="comment-details">
+                                    <h4 class="comment-author">Fikir Yihun</h4>
+                                    <span>18 Sep 2017</span>
+                                    <p>
+                                        Lake Tana is the biggest lake in Ethiopia,
+                                        accounting for a staggering 50% of all inland water in the country. The flora and fauna found with
+                                        in its murky depths have led to Lake Tana's nomination as a UNESCO Biosphere Reserve. Surrounding the lake lies one of the largest networks of wetlands in Africa.
+                                    </p>
+                                    <a href="3">Reply</a>
+                                </div>
+                            </li>
+                            <li class="comment-children">
+                                <div class="comment-avatar">
+                                    <img src="~/img/testimonial-2.jpg" alt="">
+                                </div>
+                                <div class="comment-details">
+                                    <h4 class="comment-author">Birhanu Workie</h4>
+                                    <span>18 Sep 2017</span>
+                                    <p>
+                                        Shaped like an inverted teardrop, shallow Tana					i
+                                        s relatively low-lying by Ethiopian standards, with a surface elevation
+                                        of 1800m, but the lake's hinterland is enclosed by craggily scenic mountain landscapes typical of the Abyssinian Highlands
+                                    </p>
+                                    <a href="3">Reply</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="comment-avatar">
+                                    <img src="~/img/testimonial-2.jpg" alt="">
+                                </div>
+                                <div class="comment-details">
+                                    <h4 class="comment-author">Dawit Melakegenet</h4>
+                                    <span>18 Sep 2017</span>
+                                    <p>
+                                        The Regional State's capital city Bahir-Dar is located on the southern shores of the lake.
+                                        Approximately 84 kilometres in length and 66 kilometres wide, Lake Tana is Ethiopia's largest lake and,
+                                        at an elevation of 1840 meters above sea level, it is also the highest lake in Africa.
+                                    </p>
+                                    <a href="3">Reply</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="form-comments">
+                        <div class="title-box-2">
+                            <h3 class="title-left">
+                                Leave a Reply
+                            </h3>
+                        </div>
+                        <form class="form-mf">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control input-mf" id="inputName" placeholder="Name *" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control input-mf" id="inputEmail1" placeholder="Email *" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <div class="form-group">
+                                        <input type="url" class="form-control input-mf" id="inputUrl" placeholder="Website">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <div class="form-group">
+                                        <textarea id="textMessage" class="form-control input-mf" placeholder="Comment *" name="message"
+                                                  cols="45" rows="8" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="widget-sidebar sidebar-search">
+                        <h5 class="sidebar-title">Search</h5>
+                        <div class="sidebar-content">
+                            <form>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-secondary btn-search" type="button">
+                                            <span class="ion-android-search"></span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="widget-sidebar">
+                        <h5 class="sidebar-title">Recent Post</h5>
+                        <div class="sidebar-content">
+                            <ul class="list-sidebar">
+                                <li>
+                                    <a href="#">Pending...</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pending...</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pending...</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pending...</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pending...</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="widget-sidebar">
+                        <h5 class="sidebar-title">Archives</h5>
+                        <div class="sidebar-content">
+                            <ul class="list-sidebar">
+                                <li>
+                                    <a href="#">September, 2017.</a>
+                                </li>
+                                <li>
+                                    <a href="#">April, 2017.</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pending...</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pending...</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pending...</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="widget-sidebar widget-tags">
+                        <h5 class="sidebar-title">Tags</h5>
+                        <div class="sidebar-content">
+                            <ul>
+                                <li>
+                                    <a href="#">Web.</a>
+                                </li>
+                                <li>
+                                    <a href="#">Design.</a>
+                                </li>
+                                <li>
+                                    <a href="#">Travel.</a>
+                                </li>
+                                <li>
+                                    <a href="#">Photoshop</a>
+                                </li>
+                                <li>
+                                    <a href="#">Corel Draw</a>
+                                </li>
+                                <li>
+                                    <a href="#">JavaScript</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ Section Blog-Single End /-->
+    <!--/ Section Contact-Footer Star /-->
+    <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(/img/overlay-bg.jpg)">
+        <div class="overlay-mf"></div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="copyright-box">
+                            <p class="copyright">&copy; Copyright <strong>Addisu Melese</strong> All Rights Reserved</p>
+                            <div class="credits">
+                                <!--
+                                  All the links in the footer should remain intact.
+                                  You can delete the links only if you purchased the pro version.
+                                  Licensing information: https://bootstrapmade.com/license/
+                                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+                                -->
+                                Designed by <a href="#">Addisu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!--/ Section Contact-footer End /-->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
+
+    <!-- JavaScript Libraries -->
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/jquery/jquery-migrate.min.js"></script>
+    <script src="~/lib/popper/popper.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/easing/easing.min.js"></script>
+    <script src="~/lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="~/lib/counterup/jquery.counterup.js"></script>
+    <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/lib/lightbox/js/lightbox.min.js"></script>
+    <script src="~/lib/typed/typed.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="~/contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="~/js/main.js"></script>
+
+</body>
+</html>
